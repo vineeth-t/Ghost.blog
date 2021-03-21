@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&display=swap");
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Raleway", sans-serif;
+ }
+.body{
+ background-color: black;
+ font-weight:500;
+
+}
+.header{
+   background:url('https://demo.ghost.io/content/images/size/w2000/2019/10/publication-cover.png');
+   color: #fff;
+  
+}
+.nav{
+   display:flex;
+   justify-content: space-between;
+   min-width: 70%;
+   padding: 0 15%;
+   cursor: pointer;
+    
+}
+li{
+   list-style-type: none; 
+   display:inline-block;
+   margin:1rem;
+  
+}
+.Subscribe{
+  
+   text-align: center;
+  color: black;
+  padding: 0.5rem;
+   border-radius: 1rem;
+}
+.heading {
+
+      padding: 6rem;
+      text-align: center;
+    }
+.heading img {
+      max-width: 200px;
+      width: 100%;
+    }
+    
+main{
+      max-width: 70%;
+      margin: 2rem 15% 2rem 15%;
+    }
+    
+.section1{
+      display: flex;
+      margin: 3rem 0; 
+    }
+.secton1 img{
+   max-width: 600px;
+   width: 100%;
+}
+.section1-text{
+   display: flex;
+   flex-direction: column;
+   margin-left: 3rem;
+   
+}
+.section1 h1{
+   font-size: 2.5rem;
+   padding: 1rem 0;
+}
+.section1 h4{
+  color:#3eb0ef;
+  padding: 1rem 0;
+
+}
+.section1 p{
+   font-size: 1.3rem;
+   color: #858585;
+}
+.ghost-details{
+   display: flex;
+   padding: 2rem 0;
+}
+.ghost-details img{
+   width:55px;
+   border-radius: 100%;
+}
+.ghost-info{
+   padding: 1rem 1rem;
+   display: flex;
+   flex-direction: column;
+}
+.section2-blogs{
+   display: flex;
+   margin: 3rem 0;
+  gap:3rem;
+  
+ 
+}
+.section2-blogs img{
+   max-width: 400px;
+   max-height: 226px;
+   height: 100%;
+   width: 100%;
+  
+}
+.blog-details{
+   display: flex;
+   flex-direction: column;
+}
+.blog-text img{
+max-width: 600px;
+width: 100%;
+}
+.blog-text{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+
+
+}
+.blog-text h1{
+font-size: 2rem;
+padding: 1rem 0;
+}
+.blog-text h4{
+color:#3eb0ef;
+padding: 1rem 0;
+
+}
+.blog-text p{
+font-size: 1.3rem;
+color: #858585;
+}
+.blog-text .ghost-details img{
+   width:60px;
+   border-radius: 100%;
+}
+.footer{
+   min-width: 70%;
+   height: 70%;
+   padding: 1rem 15%;
+   cursor: pointer;
+   background:url('https://demo.ghost.io/content/images/size/w2000/2019/10/publication-cover.png');
+   color: #fff;
+   display:flex;
+   justify-content: space-between;
+}
+@media screen and (max-width: 900px){
+   .nav {
+      padding: 2rem 10%;
+      text-align: center;
+    }
+    .heading {
+      padding:1rem;
+    }
+    .li-social{
+       display: none;
+    }
+   .main{
+      display:flex;
+      max-width: 90%;
+      margin: 2rem 5%;
+    
+   }
+   .section1 {
+      flex-direction: column;
+      margin: 0;
+    }
+   .section1-text{
+      margin: 1rem 0;
+   }
+   /* .section1 h1{
+      font-size: 1.16rem;
+   }
+   .section1 p{
+      font-size: 1.1rem;
+   }
+
+  
+  .blog-text h1{
+      font-size: 1.16rem;
+   }
+   .blog-text p{
+      font-size: 1.1rem;
+   } */
+  
+   .section1{
+      flex-direction: column;
+   }
+ .section2-blogs{
+      flex-direction: column;
+   }
+   .footer {
+      flex-direction: column;
+      text-align: center;
+      padding: 2rem 10%;
+    }
+}
