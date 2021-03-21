@@ -149,13 +149,14 @@ color: #858585;
 }
 @media screen and (max-width: 900px){
    .nav {
-      padding: 2rem 10%;
+      padding: 1rem 5%;
       text-align: center;
     }
     .heading {
       padding:1rem;
     }
     .li-social{
+     
        display: none;
     }
    .main{
